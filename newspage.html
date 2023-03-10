@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_wrapper">
+        <header class="header">
+            <div class="header-content headermobi">
+                <div class="main-content">
+                    <span id="openPageslide" class="openPageslide jsopenPageslide">
+                        <i class="fa-sharp fa-solid fa-bars ic-menu-mobi"></i>
+                    </span>
+                    <div class="header-logo logomobi">
+                        <a href="#">
+                            <img class="header-logo-img" alt="Lịch ngày tốt" src="./assets/img/svg/logo.svg" />
+                        </a>
+                    </div>
+                    <div class="header-right">
+                        <div class="fixsearch">
+                            <div class="item-rows1">
+                                <span class="font15" style="float:left">Xem
+                                    <a href="#" style="margin-right:10px">XSMN</a></span>
+                                <div class="item_dd-mm-yy">
+                                    <div class="btn-dropdown1 date-picker">
+                                        <span class="btn-toggle1 jsbtn-toggle1 btn-seting2">Cài đặt
+                                            ngày sinh</span>
+
+                                        <div class="content-drop jscontent-drop pa10" style="width: 250px; right: 0px;">
+                                            <div class="form-group font15">Cài đặt ngày sinh (DL), giới tính để xem được
+                                                nhanh
+                                                nhất</div>
+                                            <div class="form-group select-event jsselect-event"><input class="dob jsdob"
+                                                    value="09-12-1992">
+                                            </div>
+                                            <div id="caidat-ngaysinh" class="input-dropdown jsinput-dropdown">
+                                                <div class="form-group">
+                                                    <div class="column3 column_full select-drop jscaidat"><select
+                                                            name="day">
+                                                            <option value="0">Ngày</option>
+                                                            <option>01</option>
+                                                            <option>02</option>
+                                                            <option>03</option>
+                                                            <option>04</option>
+                                                            <option selected="">09</option>
+                                                        </select></div>
+                                                    <div class="column3 column_full select-drop jscaidat"><select
+                                                            name="month">
+                                                            <option value="0">Tháng</option>
+                                                            <option>01</option>
+                                                            <option selected="">12</option>
+                                                        </select></div>
+                                                    <div class="column3 column_full select-drop jscaidat"><select
+                                                            name="year">
+                                                            <option value="0">Năm</option>
+                                                            <option>1945</option>
+                                                            <option>1946</option>
+                                                            <option>1952</option>
+                                                            <option selected="">1992</option>
+                                                            <option>1993</option>
+                                                        </select></div>
+                                                </div>
+                                                <div class="form-group ">
+                                                    <div class="btnright jsdayform2"><button
+                                                            class="btn btn1 select-date">Chọn</button></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group jsform-group2">
+                                                <div class="fixleft">
+                                                    <div class="item-sex jsitem-sex"><label
+                                                            class="label-radio font15 jslabel">
+                                                            Nam
+                                                            <input class="radio-1" checked name="GenderId" value="1"
+                                                                type="radio"> <span class="radio-2"></span></label>
+                                                    </div>
+                                                    <div class="item-sex jsitem-sex"><label
+                                                            class="label-radio font15 jslabel">
+                                                            Nữ
+                                                            <input class="radio-1" name="GenderId" value="2"
+                                                                type="radio">
+                                                            <span class="radio-2"></span> </label></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="btnright"><button
+                                                        class="btn btn1 update-date jsupdate-date">Cập
+                                                        nhật</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search-header">
+                                    <div class="header-seach-right">
+                                        <input class="input-seach" placeholder="Tìm kiếm..." />
+                                        <button class="header-btn-seach">
+                                            <img class="img-seach" src="./assets/img/svg/seach.svg" alt="seach" />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-rows2">
+                                <div class="title-homepage">Bói tình duyên</div>
+                            </div>
+                        </div>
+                        <div class="header-right-mobi">
+                            <div class="icon-mobi-right">
+                                <button class="btn-search btn-search jsbtn-search">
+                                    <i class="fa-sharp fa-solid fa-magnifying-glass ic-menu-mobi"></i>
+                                </button>
+
+                            </div>
+                        </div>
+                        <div class="form-search-top">
+                            <span class="close-search-top">
+                                <i class="fa-sharp fa-solid fa-arrow-left ic_search"></i>
+                            </span>
+                            <div class="search-header-mobi">
+                                <div class="header-seach-right-mobi">
+                                    <input class="input-seach" placeholder="Tìm kiếm..." />
+                                    <button class="header-btn-seach">
+                                        <img class="img-seach" src="./assets/img/svg/seach.svg" alt="seach" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-main jsnav-main original_sticky sticky_nav">
+
+
+                <div class="navBox jsnavBox" id="pageslide">
+                    <div class="user-sidebar2">
+                        <a href="#">
+                            <img class="logosidebar" alt="logo" src="./assets/img/svg/logo.svg">
+                        </a> <span class="btn-close-nav jsbtn-close-nav">×</span>
+                    </div>
+                    <ul class="main-content padding0 nav_lick-mobi jsnav_lick-mobi">
+                        <li class="menu_item_1">
+                            <a href="#" title="Trang chủ" class="menu_link_1 active">
+                                <span class="fix-hide-mobi">Trang chủ</span>
+                            </a>
+                        </li>
+                        <li class="menu_item_1">
+                            <a href="#" title="Xem ngày" class="menu_link_1"> Xem ngày </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Lịch Ngày"
+                                        class="menu_link_2sub font15">Lịch
+                                        Ngày</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#" title="Lịch Tuần"
+                                        class="menu_link_2sub font15">Lịch
+                                        Tuần</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Lịch Tháng"
+                                        class="menu_link_2sub font15">Lịch
+                                        Tháng</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Lịch Năm 2022"
+                                        class="menu_link_2sub font15">Lịch
+                                        Năm 2022</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Lịch Âm"
+                                        class="menu_link_2sub font15">Lịch
+                                        Âm</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Đổi lịch âm dương"
+                                        class="menu_link_2sub font15">Đổi
+                                        lịch âm dương</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Chọn ngày tốt"
+                                        class="menu_link_2sub font15">Chọn
+                                        ngày tốt</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem ngày tốt cho việc"
+                                        class="menu_link_2sub font15">Xem ngày tốt cho việc</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#" title="Bao nhiêu ngày kể từ"
+                                        class="menu_link_2sub font15">Bao nhiêu ngày kể từ</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#"
+                                        title="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán 2023"
+                                        class="menu_link_2sub font15">Còn bao nhiêu ngày nữa đến Tết
+                                        Nguyên Đán 2023</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Tử vi" class="menu_link_1"> Tử vi </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi hàng ngày 12 con giáp"
+                                        class="menu_link_2sub font15">Tử vi hàng ngày 12
+                                        con giáp</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử Vi 2022"
+                                        class="menu_link_2sub font15">Tử Vi
+                                        2022</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi tháng"
+                                        class="menu_link_2sub font15">Tử vi
+                                        tháng</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Vận trình năm"
+                                        class="menu_link_2sub font15">Vận
+                                        trình
+                                        năm</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi trọn đời"
+                                        class="menu_link_2sub font15">Tử
+                                        vi
+                                        trọn đời</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem sao hạn 2022"
+                                        class="menu_link_2sub font15">Xem sao
+                                        hạn 2022</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xông đất 2023"
+                                        class="menu_link_2sub font15">Xông
+                                        đất
+                                        2023</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Kiến thức tử vi"
+                                        class="menu_link_2sub font15">Kiến thức tử vi</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Con số may mắn"
+                                        class="menu_link_2sub font15">Con
+                                        số may mắn</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Đặt tên cho con"
+                                        class="menu_link_2sub font15">Đặt
+                                        tên cho con</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1">
+                            <a href="#" title="Xem bói" class="menu_link_1"> Xem bói</a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Cân xương tính số"
+                                        class="menu_link_2sub font15">Cân xương tính số</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Bói tình yêu"
+                                        class="menu_link_2sub font15">Bói
+                                        tình
+                                        yêu</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem năm lấy chồng"
+                                        class="menu_link_2sub font15">Xem năm lấy chồng</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Sinh con theo ý muốn"
+                                        class="menu_link_2sub font15">Sinh con theo ý muốn</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#" title="Sinh con hợp tuổi"
+                                        class="menu_link_2sub font15">Sinh con hợp tuổi</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem tuổi xây nhà"
+                                        class="menu_link_2sub font15">Xem
+                                        tuổi xây nhà</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tính trùng tang"
+                                        class="menu_link_2sub font15">Tính
+                                        trùng tang</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem bói ngày sinh, giờ sinh"
+                                        class="menu_link_2sub font15">Xem bói ngày sinh,
+                                        giờ sinh</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Cung hoàng đạo" class="menu_link_1"> Cung hoàng
+                                đạo
+                            </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi hàng ngày 12 cung"
+                                        class="menu_link_2sub font15">Tử vi hàng ngày 12
+                                        cung</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi hàng tuần "
+                                        class="menu_link_2sub font15">Tử
+                                        vi hàng tuần </a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi hàng tháng "
+                                        class="menu_link_2sub font15">Tử vi hàng tháng </a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tử vi năm 2022"
+                                        class="menu_link_2sub font15">Tử
+                                        vi năm 2022</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tình yêu 12 cung hoàng đạo "
+                                        class="menu_link_2sub font15">Tình yêu 12 cung
+                                        hoàng đạo </a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Trắc nghiệm tình yêu"
+                                        class="menu_link_2sub font15">Trắc nghiệm tình yêu</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#" title="Mật ngữ 12 chòm sao"
+                                        class="menu_link_2sub font15">Mật ngữ 12 chòm sao</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="" title="Phong thủy" class="menu_link_1"> Phong
+                                thủy </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Cầu tài lộc"
+                                        class="menu_link_2sub font15">Cầu
+                                        tài lộc</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tình yêu - hôn nhân"
+                                        class="menu_link_2sub font15">Tình yêu - hôn nhân</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem hướng nhà"
+                                        class="menu_link_2sub font15">Xem
+                                        hướng nhà</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Vật phẩm phong thủy"
+                                        class="menu_link_2sub font15">Vật phẩm phong thủy</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Chọn đất xem nhà"
+                                        class="menu_link_2sub font15">Chọn đất xem nhà</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Doanh nhân cần biết"
+                                        class="menu_link_2sub font15">Doanh nhân cần biết</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Phong thủy nhà ở, văn phòng"
+                                        class="menu_link_2sub font15">Phong thủy nhà ở, văn
+                                        phòng</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Thước Lỗ Ban"
+                                        class="menu_link_2sub font15">Thước
+                                        Lỗ Ban</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Xem phong thủy hàng ngày"
+                                        class="menu_link_2sub font15">Xem phong thủy hàng
+                                        ngày</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Nhân tướng học" class="menu_link_1"> Nhân tướng
+                                học </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Tướng khuôn mặt"
+                                        class="menu_link_2sub font15">Tướng khuôn mặt</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tướng bàn tay"
+                                        class="menu_link_2sub font15">Tướng
+                                        bàn tay</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tướng nốt ruồi"
+                                        class="menu_link_2sub font15">Tướng nốt ruồi</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tướng người tốt - xấu"
+                                        class="menu_link_2sub font15">Tướng người tốt - xấu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Tâm linh" class="menu_link_1">
+                                Tâm linh </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Chú Đại Bi"
+                                        class="menu_link_2sub font15">Chú Đại
+                                        Bi</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Luật nhân quả"
+                                        class="menu_link_2sub font15">Luật
+                                        nhân quả</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Lời Phật dạy"
+                                        class="menu_link_2sub font15">Lời
+                                        Phật dạy</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Chuyện tâm linh"
+                                        class="menu_link_2sub font15">Chuyện tâm linh</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Blog cuộc sống" class="menu_link_1"> Blog cuộc
+                                sống </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Thiền"
+                                        class="menu_link_2sub font15">Thiền</a>
+                                </li>
+                                <li class="menu_item_2sub"><a href="#" title="Những câu nói hay"
+                                        class="menu_link_2sub font15">Những câu nói hay</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Status hay"
+                                        class="menu_link_2sub font15">Status
+                                        hay</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Câu chuyện cuộc sống"
+                                        class="menu_link_2sub font15">Câu chuyện cuộc sống</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Giấc mơ" class="menu_link_1"> Giấc mơ </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Sổ mơ" class="menu_link_2sub font15">Sổ
+                                        mơ</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Thực vật"
+                                        class="menu_link_2sub font15">Thực
+                                        vật</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Động vật"
+                                        class="menu_link_2sub font15">Động
+                                        vật</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Cơ thể" class="menu_link_2sub font15">Cơ
+                                        thể</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Đồ dùng" class="menu_link_2sub font15">Đồ
+                                        dùng</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Thiên nhiên"
+                                        class="menu_link_2sub font15">Thiên
+                                        nhiên</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Hành động"
+                                        class="menu_link_2sub font15">Hành
+                                        động</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Phật - Quỷ"
+                                        class="menu_link_2sub font15">Phật -
+                                        Quỷ</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Con người"
+                                        class="menu_link_2sub font15">Con
+                                        người</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Thực phẩm "
+                                        class="menu_link_2sub font15">Thực
+                                        phẩm </a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Địa điểm"
+                                        class="menu_link_2sub font15">Địa
+                                        điểm</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Sống chết"
+                                        class="menu_link_2sub font15">Sống
+                                        chết</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Tổng hợp"
+                                        class="menu_link_2sub font15">Tổng
+                                        hợp</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Tin Nóng " class="menu_link_1">
+                                Tin Nóng </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Thần số" class="menu_link_1">
+                                Thần số </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                        </li>
+                        <li class="menu_item_1"><a href="#" title="Khác" class="menu_link_1"> Khác </a>
+                            <i class="fa-sharp fa-solid fa-angle-down icon_down_link"></i>
+                            <ul class="dropNav_2sub">
+                                <li class="menu_item_2sub"><a href="#" title="Văn khấn"
+                                        class="menu_link_2sub font15">Văn
+                                        khấn</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Bói bài Tarot"
+                                        class="menu_link_2sub font15">Bói
+                                        bài Tarot</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Phong tục tập quán"
+                                        class="menu_link_2sub font15">Phong tục tập quán</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Danh ngôn"
+                                        class="menu_link_2sub font15">Danh
+                                        ngôn</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Lời chúc"
+                                        class="menu_link_2sub font15">Lời
+                                        chúc</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Ngắm"
+                                        class="menu_link_2sub font15">Ngắm</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="Thời tiết"
+                                        class="menu_link_2sub font15">Thời
+                                        tiết</a></li>
+                                <li class="menu_item_2sub"><a href="#" title="VIDEO"
+                                        class="menu_link_2sub font15">VIDEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pagesBlock"></div>
+
+            </nav>
+            <div class="headerscroll2 scrollmenu_mobi top_up" id="headerscroll2">
+                <div class="scrollmenu">
+                    <span class="scrollmenu-link openPageslide2 ic-none" id="openPageslide2" href="#">
+                        <i class="fa-sharp fa-solid fa-bars ic-menu-mobi"></i>
+                    </span>
+                    <a href="#" title="Trang chủ" class="scrollmenu-link active">
+                        <i class="fa-sharp fa-solid fa-house ic-home-mobi"></i>
+                    </a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Xem ngày</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Tử vi</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Xem bói</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Cung hoàng đạo</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Phong thuỷ</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Nhân tướng học</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Tâm linh</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Blog cuộc sống</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Giấc mơ</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Tin nóng</a>
+                    <a href="#" title="Xem ngày" class="scrollmenu-link font15">Thần số</a>
+                </div>
+            </div>
+        </header>
+        <div id="nav-header">
+            <div id="nav-fixed" class="nav-content main-content">
+
+                <ul class="nav-list">
+                    <li class="img-header">
+                        <a class="img-hover" href="#">
+                            <img class="nav-img-home" src="./assets/img/common/home.png" />
+                        </a>
+                    </li>
+                    <li><a href="#">Xem ngày</a>
+                        <ul class="subnav">
+                            <li><a href="#">Lịch Ngày</a></li>
+                            <li><a href="#">Lịch Tuần</a></li>
+                            <li><a href="#">Lịch Tháng</a></li>
+                            <li><a href="#">Lịch Năm 2022</a></li>
+                            <li><a href="#">Lịch Âm</a></li>
+                            <li><a href="#">Đổi lịch âm dương</a></li>
+                            <li><a href="#">Chọn ngày tốt</a></li>
+                            <li><a href="#">Xem ngày tốt cho việc</a></li>
+                            <li><a href="#">Bao nhiêu ngày kể từ</a></li>
+                            <li><a href="#">Còn bao nhiêu ngày nữa đến Tết Nguyên Đoán 2023</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Tử Vi</a>
+                        <ul class="subnav">
+                            <li><a href="#">Tử vi hàng ngày 12 con giáp</a></li>
+                            <li><a href="#">Tử vi 2022</a></li>
+                            <li><a href="#">Tử vi tháng</a></li>
+                            <li><a href="#">Vận trình năm</a></li>
+                            <li><a href="#">Tử vi trọn đời</a></li>
+                            <li><a href="#">Xem sao hạng 2022</a></li>
+                            <li><a href="#">Xông đất 2023</a></li>
+                            <li><a href="#">Kiến thức tử vi</a></li>
+                            <li><a href="#">Con số may mắn</a></li>
+                            <li><a href="#">Đặt tên cho con</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Xem bói</a>
+                        <ul class="subnav">
+                            <li><a href="#">Cân xương tính số</a></li>
+                            <li><a href="#">Bói tình yêu</a></li>
+                            <li><a href="#">Xem năm lấy chồng</a></li>
+                            <li><a href="#">Sinh con theo ý muốn</a></li>
+                            <li><a href="#">Sinh con hợp tuổi</a></li>
+                            <li><a href="#">Xem tuôỉ xây nhà</a></li>
+                            <li><a href="#">Tính trùng tang</a></li>
+                            <li><a href="#">Xem bói ngày sinh,giờ ngày sinh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cung hoàng đạo</a>
+                        <ul class="subnav">
+                            <li><a href="#">Tử vi hàng ngày 12 cung</a></li>
+                            <li><a href="#">Tử vi hàng tuần</a></li>
+                            <li><a href="#">Tử vi hàng tháng</a></li>
+                            <li><a href="#">Tử vi năm 2022</a></li>
+                            <li><a href="#">Tình yêu 12 cung hoàng đạo</a></li>
+                            <li><a href="#">Trắc nghiệm tình yêu</a></li>
+                            <li><a href="#">Mật ngữ 12 chòm sao</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Phong thuỷ</a>
+                        <ul class="subnav">
+                            <li><a href="#">Cầu tài lộc</a></li>
+                            <li><a href="#">Tình yêu - hôn nhân</a></li>
+                            <li><a href="#">Xem hướng nhà</a></li>
+                            <li><a href="#">Vật phẩm phong thuỷ</a></li>
+                            <li><a href="#">Chon đất xem nhà</a></li>
+                            <li><a href="#">Doanh nhân cần thiết</a></li>
+                            <li><a href="#">Phong thuỷ nhà ở,Văn phòng</a></li>
+                            <li><a href="#">Thước lỗ ban</a></li>
+                            <li><a href="#">Xem phong thuỷ hàng ngày</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Nhân tướng học</a>
+                        <ul class="subnav">
+                            <li><a href="#">Tướng khuôn mặt</a></li>
+                            <li><a href="#">Tướng bàn tay</a></li>
+                            <li><a href="#">Tướng nốt ruồi</a></li>
+                            <li><a href="#">Tướng người tốt - xấu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tâm linh</a>
+                        <ul class="subnav">
+                            <li><a href="#">Chú Đại Bi</a></li>
+                            <li><a href="#">Luật nhân quả</a></li>
+                            <li><a href="#">Lời phật dạy</a></li>
+                            <li><a href="#">Chuyện tâm linh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog cuộc sống</a>
+                        <ul class="subnav">
+                            <li><a href="#">Thiền</a></li>
+                            <li><a href="#">Những câu nói hay</a></li>
+                            <li><a href="#">Status hay</a></li>
+                            <li><a href="#">Câu chuyện cuộc sống</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Giấc mơ</a>
+                        <ul class="subnav">
+                            <li><a href="#">Sổ mơ</a></li>
+                            <li><a href="#">Thực vật</a></li>
+                            <li><a href="#">Động vật</a></li>
+                            <li><a href="#">Cơ thể</a></li>
+                            <li><a href="#">Đồ dùng</a></li>
+                            <li><a href="#">Thiên nhiên</a></li>
+                            <li><a href="#">Hành động</a></li>
+                            <li><a href="#">Phật - Quỷ</a></li>
+                            <li><a href="#">Con người</a></li>
+                            <li><a href="#">Thực phẩm</a></li>
+                            <li><a href="#">Địa điểm</a></li>
+                            <li><a href="#">Sống chết</a></li>
+                            <li><a href="#">Tổng hợp</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li><a href="#">Tin Nóng</a></li>
+                    <li><a href="#">Thần số</a></li>
+                    <li><a href="#">Khác</a>
+                        <ul class="subnav">
+                            <li><a href="#">Văn khấn</a></li>
+                            <li><a href="#">Bói bài Tarot</a></li>
+                            <li><a href="#">Phong tục tập quán</a></li>
+                            <li><a href="#">Danh ngôn</a></li>
+                            <li><a href="#">Lời chúc</a></li>
+                            <li><a href="#">Ngắm</a></li>
+                            <li><a href="#">Thời tiết</a></li>
+                            <li><a href="#">VIDEO</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main class='main' style="height: auto;">
+        <div class="main-content">
+            <div class="boxs-tu-vi " style="margin-top:48px;">
+                <a href="#" title="Tý" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Ty.svg" alt="Tý"><br>
+                    Tý
+                </a>
+                <a href="#" title="Sửu" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Suu.svg" alt="Sửu"><br>
+                    Sửu
+                </a>
+                <a href="#" title="Dần" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Dan.svg" alt="Dần"><br>
+                    Dần
+                </a>
+                <a href="#" title="Mão" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Mao.svg" alt="Mão"><br>
+                    Mão
+                </a>
+                <a href="#" title="Thìn" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Thin.svg" alt="Thìn"><br>
+                    Thìn
+                </a>
+                <a href="#" title="Tị" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Ti.svg" alt="Tị"><br>
+                    Tị
+                </a>
+                <a href="#" title="Ngọ" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Ngo.svg" alt="Ngọ"><br>
+                    Ngọ
+                </a>
+                <a href="#" title="Mùi" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Mui.svg" alt="Mùi"><br>
+                    Mùi
+                </a>
+                <a href="#" title="Thân" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Than.svg" alt="Thân"><br>
+                    Thân
+                </a>
+                <a href="#" title="Dậu" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Dau.svg" alt="Dậu"><br>
+                    Dậu
+                </a>
+                <a href="#" title="Tuất" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Tuat.svg" alt="Tuất"><br>
+                    Tuất
+                </a>
+                <a href="#" title="Hợi" class="tivi-icon">
+                    <img class="lazy" src="./assets/img/svg/Hoi.svg" alt="Hợi"><br>
+                    Hợi
+                </a>
+            </div>
+            <div class="main-wrapper" style="height: auto !important;">
+                <div class="main-content-left">
+                    <div class="boder_fix" style="height: auto;">
+                        <div class="breadcrumb1">
+                            <ul>
+                                <li class="breadcrumb1-item"><a href="#" title="Trang chủ">Trang
+                                        chủ </a></li>
+                                <li class="breadcrumb1-item"> / Tử vi</li>
+                            </ul>
+                        </div>
+                        <div class="page-head">
+                            <h1 class="page-head-title titleline">Xem Tử Vi - Bói tử vi 12 con giáp Chính xác - Tử Vi
+                                Khoa Học</h1>
+                            <div class="right-cat">
+                                <div class="btn-dropdown1">
+                                    <span class="jsbtn-toggle2 btn-danhmuc">
+                                        <i class="fas fa-grip-horizontal ic-icon_apps"></i>
+                                    </span>
+                                    <div class="content-drop jscontent-drop2 font15"
+                                        style="white-space: nowrap; right: 0px; display: none;">
+                                        <ul class="dropdowncontent">
+                                            <li><a href="#" title="Tử vi hàng ngày 12 con giáp" class="item-list-1">Tử
+                                                    vi
+                                                    hàng ngày 12 con giáp</a></li>
+                                            <li><a href="#" title="Tử Vi 2022" class="item-list-1">Tử Vi
+                                                    2022</a></li>
+                                            <li><a href="#" title="Tử vi tháng" class="item-list-1">Tử vi tháng</a></li>
+                                            <li><a href="#" title="Vận trình năm" class="item-list-1">Vận trình năm</a>
+                                                <ul class="ul-s-2">
+                                                    <li><a href="#" title="Sự nghiệp 2020" class="item-list-2">Sự nghiệp
+                                                            2020</a></li>
+                                                    <li><a href="#" title="Tài lộc 2020" class="item-list-2">Tài lộc
+                                                            2020</a></li>
+                                                    <li><a href="#" title="Tình duyên 2020" class="item-list-2">Tình
+                                                            duyên 2020</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#" title="Tử vi trọn đời" class="item-list-1">Tử vi trọn
+                                                    đời</a></li>
+                                            <li><a href="#" title="Xem sao hạn 2022" class="item-list-1">Xem sao hạn
+                                                    2022</a></li>
+                                            <li><a href="#" title="Xông đất 2023" class="item-list-1">Xông đất 2023</a>
+                                            </li>
+                                            <li><a href="#" title="Kiến thức tử vi" class="item-list-1">Kiến thức tử
+                                                    vi</a></li>
+                                            <li><a href="#" title="Con số may mắn" class="item-list-1">Con số may
+                                                    mắn</a>
+                                            </li>
+                                            <li><a href="#" title="Đặt tên cho con" class="item-list-1">Đặt tên cho
+                                                    con</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-content">
+                            <div class="col2">
+                                <article class="other-news fixmobi">
+                                    <a class="thumb-calc-mobi img-orther-new" href="#">
+                                        <img src="./assets/img/common/lichamduong.png" alt="anh"
+                                            class="thumb-full lazy" />
+                                    </a>
+                                    <h3 class="post-title">
+                                        <a class="fisth3" href="#">Dựa trên Lá số tử vi: Hướng phát triển cho các chính
+                                            tinh
+                                            trong năm 2023 – Người đang hoang mang về tương lai chớ bỏ
+                                            qua!</a>
+                                    </h3>
+                                    <div class="post-sapo hide">
+                                        <p>Nếu vẫn đang thấy hoang mang về con đường và mục tiêu tương lai của mình, đặc
+                                            biệt là khi năm 2023 đang bước tới rất
+                                            gần, những gợi ý về hướng phát triển cho các chính tinh năm 2023 dưới đây sẽ
+                                            là kim chỉ nam để các tuổi có thể lựa
+                                            chọn cho mình lộ trình phù hợp nhất.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col2">
+                                <article class="other-news">
+                                    <div class="post-thumbnail thumb120"><a href="#"
+                                            title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                            <img class="thumb-full lazy" src="./assets/img/common/sc4-5.jpeg"
+                                                alt="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                        </a></div>
+                                    <div class="description">
+                                        <h3 class="post-title3 bold-mobi"><a href="#"
+                                                title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">Sao
+                                                Đôi trong lá số tử
+                                                vi và tính chất quyết định khi luận đoán vận mệnh</a></h3>
+                                    </div>
+                                </article>
+                                <article class="other-news">
+                                    <div class="post-thumbnail thumb120"><a href="#"
+                                            title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                            <img class="thumb-full lazy" src="./assets/img/common/sc4-1.jpeg"
+                                                alt="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                        </a></div>
+                                    <div class="description">
+                                        <h3 class="post-title3 bold-mobi"><a href="#"
+                                                title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                                Những con giáp nói ít làm nhiều, thường xuyên được lãnh đạo khen
+                                                thưởng</a></h3>
+                                    </div>
+                                </article>
+                                <article class="other-news">
+                                    <div class="post-thumbnail thumb120"><a href="#"
+                                            title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                            <img class="thumb-full lazy" src="./assets/img/common/sc4-3.jpeg"
+                                                alt="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                        </a></div>
+                                    <div class="description">
+                                        <h3 class="post-title3 bold-mobi"><a href="#"
+                                                title="Sao Đôi trong lá số tử vi và tính chất quyết định khi luận đoán vận mệnh">
+                                                Tử vi hôm nay - Top 3 con giáp hạnh phúc đong đầy ngày 15/12/2022</a>
+                                        </h3>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="post-listing">
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Tử vi thứ 5 ngày 15/12/2022 của 12 con giáp: Dần gặp may, Tuất hạnh phúc">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc4-1.jpeg"
+                                            alt="Tử vi thứ 5 ngày 15/12/2022 của 12 con giáp: Dần gặp may, Tuất hạnh phúc">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Tử vi thứ 5 ngày 15/12/2022 của 12 con giáp: Dần gặp may, Tuất hạnh phúc">Tử
+                                            vi thứ 5 ngày
+                                            15/12/2022 của 12 con giáp: Dần gặp may, Tuất hạnh phúc</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Tử vi hàng ngày 15/12/2022 của 12 con giáp, Thực thần ghé thăm cho thấy những
+                                            cảm xúc tích cực hỗ trợ
+                                            cho con giáp tuổi Dần rất nhiều trong các phương diện cuộc sống. Tuy nhiên,
+                                            đừng quên, giải quyết
+                                            công việc hiệu quả trước đã.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Con số may mắn hôm nay 15/12/2022 theo tuổi: Cho số ĐỎ, về bờ thắng lớn">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc4-2.jpeg"
+                                            alt="Con số may mắn hôm nay 15/12/2022 theo tuổi: Cho số ĐỎ, về bờ thắng lớn">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Con số may mắn hôm nay 15/12/2022 theo tuổi: Cho số ĐỎ, về bờ thắng lớn">Con
+                                            số may mắn hôm
+                                            nay 15/12/2022 theo tuổi: Cho số ĐỎ, về bờ thắng lớn</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Con số may mắn hôm nay 15/12/2022 theo tuổi của bạn là số mấy, con số may mắn
+                                            theo 12 con giáp được
+                                            chọn ra như thế nào, đâu là số đẹp hôm nay cho bạn, tất cả sẽ được giải đáp
+                                            trong bài viết này.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Quý nhân giúp 12 con giáp có một năm 2023 gặp dữ hóa lành, tài lộc phong phú, công thành danh toại">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc4-4.jpeg"
+                                            alt="Quý nhân giúp 12 con giáp có một năm 2023 gặp dữ hóa lành, tài lộc phong phú, công thành danh toại">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Quý nhân giúp 12 con giáp có một năm 2023 gặp dữ hóa lành, tài lộc phong phú, công thành danh toại">Quý
+                                            nhân giúp 12 con giáp có một năm 2023 gặp dữ hóa lành, tài lộc phong phú,
+                                            công thành danh toại</a>
+                                    </h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Một năm mới nữa lại tới, ai cũng mong cuộc đời mình có sự đồng hành của quý
+                                            nhân để vận khí trong
+                                            suốt cả năm thêm phần hanh thông, làm gì cũng được trợ giúp, nâng bước tới
+                                            gần hơn với thành công.
+                                            Vậy quý nhân của 12 con giáp năm 2023 sẽ là ai? Tìm ngay câu trả lời trong
+                                            nội dung dưới đây.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="3 tuổi được lộc Tổ tiên dễ trúng số, trúng thưởng đổi đời năm Quý Mão 2023">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc4-5.jpeg"
+                                            alt="3 tuổi được lộc Tổ tiên dễ trúng số, trúng thưởng đổi đời năm Quý Mão 2023">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="3 tuổi được lộc Tổ tiên dễ trúng số, trúng thưởng đổi đời năm Quý Mão 2023">3
+                                            tuổi được lộc
+                                            Tổ tiên dễ trúng số, trúng thưởng đổi đời năm Quý Mão 2023</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>May mắn khó ai sánh bằng khi được tổ tiên độ trì, 3 con giáp dễ trúng số đổi
+                                            đời năm 2023 chính thức
+                                            được lộ diện. Đó là ai, có tuổi của bạn hay không?</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Bật mí mục tiêu năm 2023 mỗi người cần làm theo tháng sinh dương lịch: Lấy được MAY MẮN chỉ trong 3 giây">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc5-1.jpeg"
+                                            alt="Bật mí mục tiêu năm 2023 mỗi người cần làm theo tháng sinh dương lịch: Lấy được MAY MẮN chỉ trong 3 giây">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Bật mí mục tiêu năm 2023 mỗi người cần làm theo tháng sinh dương lịch: Lấy được MAY MẮN chỉ trong 3 giây">Bật
+                                            mí mục tiêu năm 2023 mỗi người cần làm theo tháng sinh dương lịch: Lấy được
+                                            MAY MẮN chỉ trong 3
+                                            giây</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Sau đây là mục tiêu năm 2023 cho bản thân theo tháng sinh dương lịch để mỗi
+                                            người chúng ta đều có
+                                            được hạnh phúc, may mắn và thành công, thuận buồm xuôi gió trong năm mới.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Sao Mộc Đức 2023 chiếu tuổi nào, dâng sao giải hạn ra sao cho đúng?">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc5-2.jpeg"
+                                            alt="Sao Mộc Đức 2023 chiếu tuổi nào, dâng sao giải hạn ra sao cho đúng?">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Sao Mộc Đức 2023 chiếu tuổi nào, dâng sao giải hạn ra sao cho đúng?">Sao
+                                            Mộc Đức 2023 chiếu
+                                            tuổi nào, dâng sao giải hạn ra sao cho đúng?</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Sao Mộc Đức 2023 chiếu tuổi nào, mệnh nào? Đây là cát tinh hay hung tinh, cần
+                                            dâng sao giải hạn ra
+                                            sao? Hãy cùng tìm câu trả lời trong bài viết sau!</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Top 4 con giáp khó đoán bậc nhất chẳng ai có thể nhìn thấu"> <img
+                                            class="thumb-full lazy h125" src="./assets/img/common/sc5-4.jpeg"
+                                            alt="Top 4 con giáp khó đoán bậc nhất chẳng ai có thể nhìn thấu"> </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Top 4 con giáp khó đoán bậc nhất chẳng ai có thể nhìn thấu">Top 4 con
+                                            giáp khó đoán bậc nhất
+                                            chẳng ai có thể nhìn thấu</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Những con giáp khó đoán dưới đây khiến người ngoài chẳng thể nào hiểu được.
+                                            Trong đầu họ lúc nào cũng
+                                            đang suy nghĩ về đủ loại vấn đề khác nhau.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Ngày 14/12/2022, chúc mừng 4 tuổi sau ăn nên làm ra, vạn sự hanh thông">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc5-5.png"
+                                            alt="Ngày 14/12/2022, chúc mừng 4 tuổi sau ăn nên làm ra, vạn sự hanh thông">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Ngày 14/12/2022, chúc mừng 4 tuổi sau ăn nên làm ra, vạn sự hanh thông">Ngày
+                                            14/12/2022, chúc
+                                            mừng 4 tuổi sau ăn nên làm ra, vạn sự hanh thông</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>4 con may mắn sự nghiệp ngày 14/12/2022 sau đây sẽ có một ngày thứ 4 làm ăn
+                                            buôn bán gặp thời nên làm
+                                            gì cũng may mắn hơn người.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Tử vi thứ 4 ngày 14/12/2022 của 12 con giáp: Tị buôn bán tốt, Dậu lao đao">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc6-2.jpeg"
+                                            alt="Tử vi thứ 4 ngày 14/12/2022 của 12 con giáp: Tị buôn bán tốt, Dậu lao đao">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Tử vi thứ 4 ngày 14/12/2022 của 12 con giáp: Tị buôn bán tốt, Dậu lao đao">Tử
+                                            vi thứ 4 ngày
+                                            14/12/2022 của 12 con giáp: Tị buôn bán tốt, Dậu lao đao</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Theo dõi tử vi hàng ngày 14/12/2022 của 12 con giáp để biết trước vận mệnh
+                                            mỗi tuổi trong ngày biến
+                                            động ra sao, gặp xui xẻo cũng đừng lo quá, cứ nỗ lực hết mình ắt sẽ được đền
+                                            đáp xứng đáng.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Con số may mắn hôm nay 14/12/2022 theo tuổi: Số ĐẸP chốt hạ cuối ngày, LỘC nở muộn">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc6-4.jpeg"
+                                            alt="Con số may mắn hôm nay 14/12/2022 theo tuổi: Số ĐẸP chốt hạ cuối ngày, LỘC nở muộn">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Con số may mắn hôm nay 14/12/2022 theo tuổi: Số ĐẸP chốt hạ cuối ngày, LỘC nở muộn">Con
+                                            số
+                                            may mắn hôm nay 14/12/2022 theo tuổi: Số ĐẸP chốt hạ cuối ngày, LỘC nở
+                                            muộn</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Con số may mắn hôm nay 14/12/2022 theo tuổi của bạn là số mấy, con số may mắn
+                                            theo 12 con giáp được
+                                            chọn ra như thế nào, đâu là số đẹp hôm nay cho bạn, tất cả sẽ được giải đáp
+                                            trong bài viết này.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Bật mí vận trình tài lộc 12 con giáp năm 2023: Thần Tài chiếu cố ai?">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc6-6.png"
+                                            alt="Bật mí vận trình tài lộc 12 con giáp năm 2023: Thần Tài chiếu cố ai?">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Bật mí vận trình tài lộc 12 con giáp năm 2023: Thần Tài chiếu cố ai?">Bật
+                                            mí vận trình tài
+                                            lộc 12 con giáp năm 2023: Thần Tài chiếu cố ai?</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Xem tài lộc 12 con giáp năm 2023, bạn sẽ biết có những cơ hội hoặc nguy cơ
+                                            nào trước mắt, từ đó có
+                                            những phương án phù hợp kiếm tiền về đầy túi.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="4 cặp đôi con giáp hợp làm ăn năm 2023, cơ hội kiếm tiền đầy két nằm ngay trong tầm tay">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc6-7.jpeg"
+                                            alt="4 cặp đôi con giáp hợp làm ăn năm 2023, cơ hội kiếm tiền đầy két nằm ngay trong tầm tay">
+                                    </a>
+                                </div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="4 cặp đôi con giáp hợp làm ăn năm 2023, cơ hội kiếm tiền đầy két nằm ngay trong tầm tay">4
+                                            cặp đôi con giáp hợp làm ăn năm 2023, cơ hội kiếm tiền đầy két nằm ngay
+                                            trong tầm tay</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Cặp đôi con giáp hợp làm ăn năm 2023 gồm những ai? Hợp tác với đối phương,
+                                            hai người sẽ thu về được
+                                            lợi nhuận gì? Hãy theo dõi trong bài viết dưới đây!</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Top 4 con giáp trung niên giàu có, hậu vận rủng rỉnh tiền tiêu"> <img
+                                            class="thumb-full lazy h125" src="./assets/img/common/sc6-8.jpeg"
+                                            alt="Top 4 con giáp trung niên giàu có, hậu vận rủng rỉnh tiền tiêu"> </a>
+                                </div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Top 4 con giáp trung niên giàu có, hậu vận rủng rỉnh tiền tiêu">Top 4
+                                            con giáp trung niên
+                                            giàu có, hậu vận rủng rỉnh tiền tiêu</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Những con giáp trung niên giàu có dưới đây luôn cố gắng không ngừng từ khi
+                                            còn trẻ tuổi. Thành tựu
+                                            của họ sẽ khiến tất cả mọi người ngưỡng mộ.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Tử vi hôm nay: Ngưỡng mộ 3 con giáp gặp nhiều may mắn ngày 13/12/2022">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc9-1.jpeg"
+                                            alt="Tử vi hôm nay: Ngưỡng mộ 3 con giáp gặp nhiều may mắn ngày 13/12/2022">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Tử vi hôm nay: Ngưỡng mộ 3 con giáp gặp nhiều may mắn ngày 13/12/2022">Tử
+                                            vi hôm nay: Ngưỡng
+                                            mộ 3 con giáp gặp nhiều may mắn ngày 13/12/2022</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Tử vi hôm nay dự đoán có 3 con giáp gặp nhiều may mắn ngày 13/12/2022 khi
+                                            phương diện tài lộc có
+                                            nhiều tiến triển tích cực, các khoản thu tăng lên nhanh chóng, túi tiền dư
+                                            dả. Cùng theo dõi xem đó
+                                            là những ai?</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Tử vi thứ 3 ngày 13/12/2022 của 12 con giáp: Ngọ gặp sự cố, Tuất phát triển">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc7-1.jpeg"
+                                            alt="Tử vi thứ 3 ngày 13/12/2022 của 12 con giáp: Ngọ gặp sự cố, Tuất phát triển">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Tử vi thứ 3 ngày 13/12/2022 của 12 con giáp: Ngọ gặp sự cố, Tuất phát triển">Tử
+                                            vi thứ 3 ngày
+                                            13/12/2022 của 12 con giáp: Ngọ gặp sự cố, Tuất phát triển</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Tử vi hàng ngày 13/12/2022 của 12 con giáp đưa ra những dự đoán chính xác
+                                            giúp bạn biết vận trình của
+                                            mình có những biến động ra sao, may mắn hoặc nguy cơ nào sẽ xuất hiện.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Con số may mắn hôm nay 13/12/2022 theo năm sinh: Chọn số PHÁT LỘC giúp bạn dễ TRÚNG LỚN">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc7-2.jpeg"
+                                            alt="Con số may mắn hôm nay 13/12/2022 theo năm sinh: Chọn số PHÁT LỘC giúp bạn dễ TRÚNG LỚN">
+                                    </a>
+                                </div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Con số may mắn hôm nay 13/12/2022 theo năm sinh: Chọn số PHÁT LỘC giúp bạn dễ TRÚNG LỚN">Con
+                                            số may mắn hôm nay 13/12/2022 theo năm sinh: Chọn số PHÁT LỘC giúp bạn dễ
+                                            TRÚNG LỚN</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Làm sao để chọn ra con số may mắn hôm nay 13/12/2022 theo năm sinh hay con số
+                                            may mắn theo 12 con
+                                            giáp chuẩn xác nhất, hãy xem ngay bài viết này để dễ dàng có câu trả lời.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Tết Dương lịch 2023: Được nghỉ 3 ngày chính thức, xuất hành hướng nào, giờ nào thì may mắn ngập tràn?">
+                                        <img class="thumb-full lazy h125" src="./assets/img/common/sc7-3.jpeg"
+                                            alt="Tết Dương lịch 2023: Được nghỉ 3 ngày chính thức, xuất hành hướng nào, giờ nào thì may mắn ngập tràn?">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Tết Dương lịch 2023: Được nghỉ 3 ngày chính thức, xuất hành hướng nào, giờ nào thì may mắn ngập tràn?">Tết
+                                            Dương lịch 2023: Được nghỉ 3 ngày chính thức, xuất hành hướng nào, giờ nào
+                                            thì may mắn ngập
+                                            tràn?</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Tết Dương lịch 2023 được nghỉ tối đa 3 ngày. Trong dịp này, đặc biệt ngày
+                                            mùng 1 Tết Dương lịch, bạn
+                                            nên xuất hành hướng nào tốt, chọn giờ nào lành để luôn may mắn trên mọi hành
+                                            trình? Câu trả lời sẽ
+                                            có ngay bên dưới!</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Con giáp dù không có ngoại hình nhưng được thần May Mắn phù trợ cả đời">
+                                        <img class="thumb-full lazy h125" src="/assets/img/common/sc7-4.jpeg"
+                                            alt="Con giáp dù không có ngoại hình nhưng được thần May Mắn phù trợ cả đời">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Con giáp dù không có ngoại hình nhưng được thần May Mắn phù trợ cả đời">Con
+                                            giáp dù không có
+                                            ngoại hình nhưng được thần May Mắn phù trợ cả đời</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Theo xem bói giờ sinh 12 con giáp, đàn ông và phụ nữ sinh ra vào những thời
+                                            điểm dưới đây dù không sở
+                                            hữu một ngoại hình ưa nhìn nhưng họ lại rất may mắn khi có một sự nghiệp
+                                            thuận lợi, gia đình hạnh
+                                            phúc.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Top 4 con giáp biết hưởng thụ cuộc sống, hài lòng với những gì mình đang có">
+                                        <img class="thumb-full lazy h125" src="/assets/img/common/sc7-5.jpeg"
+                                            alt="Top 4 con giáp biết hưởng thụ cuộc sống, hài lòng với những gì mình đang có">
+                                    </a></div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Top 4 con giáp biết hưởng thụ cuộc sống, hài lòng với những gì mình đang có">Top
+                                            4 con giáp
+                                            biết hưởng thụ cuộc sống, hài lòng với những gì mình đang có</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Những con giáp biết hưởng thụ cuộc sống dưới đây thường coi trọng những gì
+                                            mình đang có, đồng thời
+                                            coi những khó khăn, trắc trở mình gặp phải là trải nghiệm đáng quý.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="other-news">
+                                <div class="post-thumbnail thumb200 m120"><a href="#"
+                                        title="Xem bói những ngày sinh xấu đem lại xui xẻo cho 12 con giáp"> <img
+                                            class="thumb-full lazy h125" src="/assets/img/common/sc8-3.jpeg"
+                                            alt="Xem bói những ngày sinh xấu đem lại xui xẻo cho 12 con giáp"> </a>
+                                </div>
+                                <div class="description">
+                                    <h3 class="post-title4"><a href="#"
+                                            title="Xem bói những ngày sinh xấu đem lại xui xẻo cho 12 con giáp">Xem bói
+                                            những ngày sinh xấu đem
+                                            lại xui xẻo cho 12 con giáp</a></h3>
+                                    <div class="post-sapo grid-line3 hide">
+                                        <p>Cùng một tháng, một mùa, những người sinh vào những thời điểm khác nhau sẽ có
+                                            những số phận khác,
+                                            cùng xem đâu là ngày sinh xui xẻo của 12 con giáp nhé.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="pagination">
+                            <div class="pagination-right">
+                                <span class="pagination-pages active font15" title="Trang 0">1</span>
+                                <a class="pagination-pages font15" href="#" title="Trang 2">2</a>
+                                <a class="pagination-pages font15" href="#" title="Trang 3">3</a>
+                                <a class="pagination-pages font15" href="#" title="Trang 4">4</a>
+                                <a class="pagination-pages font15" href="#" title="Trang 5">5</a>
+                                <a class="pagination-pages font15" href="#" title="Trang 2">
+                                    <i class="fa-sharp fa-solid fa-angle-right line-height32"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-right">
+                    <div class="widget bg-wg2">
+                        <div class="widget-title fixtitlewidget">
+                            <h2 class="widget-title-cat fixtitlewidget">Tử vi</h2>
+                        </div>
+                        <div class="widget-container">
+                            <div class="accordion-menu">
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/boi-vui-12-con-giap-c277-p0.html"
+                                            title="Tử vi hàng ngày 12 con giáp">Tử vi hàng ngày 12 con giáp</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a
+                                            href="/tu-vi/xem-tu-vi-2022-cua-12-con-giap-304-213126.html"
+                                            title="Tử Vi 2022">Tử Vi 2022</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/van-trinh-thang.html"
+                                            title="Tử vi tháng">Tử vi tháng</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/van-trinh-nam.html"
+                                            title="Vận trình năm">Vận trình năm</a>
+                                    </h3><span class="dropdownlink"></span>
+                                    <div class="accordion_dropdown">
+                                        <ul>
+                                            <li class="accordion_item2 font14"><a href="/su-nghiep.html"
+                                                    title="Sự nghiệp 2020">Sự nghiệp 2020
+                                                </a></li>
+                                            <li class="accordion_item2 font14"><a href="/tai-loc.html"
+                                                    title="Tài lộc 2020">Tài lộc 2020 </a>
+                                            </li>
+                                            <li class="accordion_item2 font14"><a href="/tinh-duyen.html"
+                                                    title="Tình duyên 2020">Tình duyên
+                                                    2020 </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/tu-vi-tron-doi.html"
+                                            title="Tử vi trọn đời">Tử vi trọn đời</a>
+                                    </h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/xem-sao-han.html"
+                                            title="Xem sao hạn 2022">Xem sao hạn 2022</a>
+                                    </h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/xong-dat.html"
+                                            title="Xông đất 2023">Xông đất 2023</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/kien-thuc-tu-vi-c579-p0.html"
+                                            title="Kiến thức tử vi">Kiến thức
+                                            tử vi</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/con-so-may-may-hom-nay-c796-p0.html"
+                                            title="Con số may mắn">Con
+                                            số may mắn</a></h3>
+                                </div>
+                                <div class="accordion_item1">
+                                    <h3 class="accordion_title font14"><a href="/dat-ten-c330-p0.html"
+                                            title="Đặt tên cho con">Đặt tên cho
+                                            con</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cla-widget fix-widget3">
+                        <div class="widget-title3">Đọc nhiều</div>
+                        <div class="widget-container">
+                            <ul>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">1</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Thần TÀI cho quả đậm: Đúng RẰM tháng 11 âm, 4 tuổi sau vượng vận bất
+                                                ngờ, tạm biệt chuỗi ngày khổ vì tiền!
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">2</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Tử vi thứ 3 ngày 6/12/2022 của 12 con giáp: Dần có trở ngại, Mùi cần
+                                                kiên nhẫn
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">3</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Tháng cuối năm 2022 quý nhân kề bên, 4 con giáp này làm gì cũng
+                                                thuận lợi
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">4</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Tử vi thứ 4 ngày 7/12/2022 của 12 con giáp: Tị vượng tài, Thân sa
+                                                sút
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">5</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Top 4 cung hoàng đạo đẹp nhất năm 2023, đẹp người đẹp cả nết!
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">6</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Con số may mắn hôm nay 6/12/2022 theo tuổi: Số ĐẸP cuối ngày, LỘC
+                                                đầy tay
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">7</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Tử vi tuần mới của 12 con giáp từ 5 - 11/12/2022: Thìn tranh chấp,
+                                                Mùi hao tài
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">8</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Xem cách đổi vận cho 12 con giáp, tháng 12/2022 lội ngược dòng thành
+                                                công
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">9</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Quý nhân trợ vận, 3 con giáp may mắn tuần này (5-11/12) làm gì cũng
+                                                hanh thông bất ngờ
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="widget-news3">
+                                    <span class="count123 font15">10</span>
+                                    <div class="description">
+                                        <span class="post-title-widget">
+                                            <a href="#" title="Thần tài">
+                                                Xếp hạng mức độ mơ mộng của 12 chòm sao: Bất ngờ nhất là vị trí số 2
+                                            </a>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cla-widget">
+                        <div class="fanpage fanpagehover" style="width: 300px;margin:auto;position:relative">
+                            <img class="lazy" alt="fanpage" src="./assets/img/common/fbr1.png" style="width:300px;" />
+                            <a href="#" class="like-pagefb font15">
+                                <img alt="like" src="./assets/img/common/likeb.png" class="like-bng" />
+                                Thích trang
+                            </a>
+                            <a href="#" class="share-pagefb font15">
+                                <img alt="like" src="./assets/img/common/csb.png" class="like-bng" />
+                                Chia sẽ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="main-content">
+            <div class="footer-content">
+                <div class="footer-col5">
+                    <div class="footer-title">
+                        <strong>Lịch</strong>
+                    </div>
+                    <div class="footer-container">
+                        <ul>
+                            <li class="footer-item">
+                                <a href="#" title="Xem ngày">Xem ngày tốt xấu</a>
+                            </li>
+                            <li class="footer-item"><a href="#" title="Lịch Âm hôm nay">Lịch Âm hôm nay</a></li>
+                            <li class="footer-item"><a href="#" title="Xem ngày tốt cho việc">Xem ngày tốt cho
+                                    việc</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footer-col5">
+                    <div class="footer-title"><strong>Tử vi</strong></div>
+                    <div class="footer-container">
+                        <ul>
+                            <li class="footer-item"><a href="#" title="Tử Vi 2022">Tử Vi 2022</a></li>
+                            <li class="footer-item"><a href="#" title="Tử vi hàng ngày">Tử vi hàng
+                                    ngày</a></li>
+                            <li class="footer-item"><a href="#" title="Tử vi trọn đời">Tử vi trọn đời</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col5">
+                    <div class="footer-title"><strong>Phong thủy</strong></div>
+                    <div class="footer-container">
+                        <ul>
+                            <li class="footer-item"><a href="#" title="Xem hướng nhà">Xem hướng nhà</a>
+                            </li>
+                            <li class="footer-item"><a href="#" title="Vật phẩm phong thủy">Vật phẩm
+                                    phong thủy</a></li>
+                            <li class="footer-item"><a href="#" title="Phong thủy nhà ở">Phong thủy nhà
+                                    ở</a></li>
+                            <li class="footer-item"><a href="#" title="Mệnh Kim hợp màu gì">Mệnh Kim hợp màu gì</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col5">
+                    <div class="footer-title"><strong>12 cung hoàng đạo</strong></div>
+                    <div class="footer-container">
+                        <ul>
+                            <li class="footer-item"><a href="#" title="Tử vi hôm nay">Tử
+                                    vi hôm nay</a></li>
+                            <li class="footer-item"><a href="#" title="Mật ngữ 12 chòm sao">Mật ngữ 12
+                                    chòm sao</a></li>
+                            <li class="footer-item"><a href="#" title="Bói tình yêu">Bói tình
+                                    yêu</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col5 hide">
+                    <div class="footer-title"><strong>Thư viện</strong></div>
+                    <div class="footer-container">
+                        <ul>
+                            <li class="footer-item"><a href="#" title="Phong tục tập quán">Phong tục tập quán</a>
+                            </li>
+                            <li class="footer-item"><a href="3" title="Bài học cuộc sống">Bài học cuộc
+                                    sống</a></li>
+                            <li class="footer-item"><a href="#" title="Tâm linh huyền bí">Tâm
+                                    linh huyền bí</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img class="footer-logo-img" src="./assets/img/svg/logo.svg" />
+                </div>
+                <div class="footer-add">
+                    <p>Chuyên trang Lịch Vạn Niên, Xem ngày tốt xấu, Tử vi, Phong thủy, Cung hoàng đạo, Tướng số</p>
+                    <p>Copyright @lichngaytot.com. All Rights Reserved</p>
+                    <p>Lịch ngày TỐT giữ bản quyền nội dung trang web này</p>
+                    <p>Email: lichngaytot@gmail.com</p>
+                    <div class="cmda"><a target="_blank" rel="nofollow" href="#" title="DMCA.com Protection Status"
+                            class="dmca-badge"> <img
+                                src="//images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=3b6cf292-b8dd-4486-a320-800277853550"
+                                alt="DMCA.com Protection Status"> </a>
+                    </div>
+                    <p>Trang đang trong giai đoạn thử nghiệm chờ xin cấp phép</p>
+                </div>
+                <div class="footer-social">
+                    <div class="footer-rows-social">
+                        <div class="post-social"><a href="#" rel="nofollow" title="Facebook" target="_blank"><img
+                                    class="ic-social" src="./assets/img/svg/face.svg"></a> <a href="#" rel="nofollow"
+                                target="_blank"><img class="ic-social" title="Twitter"
+                                    src="./assets/img/svg/twe.svg"></a>
+                            <a href="#" rel="nofollow" target="_blank"><img class="ic-social" title="Youtube"
+                                    src="./assets/img/svg/you.svg"></a>
+                        </div>
+                    </div>
+                    <div class="footer-rows-social">
+                        <div class="download-app"><img class="download-app-ic" src="./assets/img/svg/app-24.svg">Tải
+                            ứng dụng</div>
+                    </div>
+                    <div class="footer-rows-social m"><a href="#" rel="nofollow" title="GooglePlay" target="_blank">
+                            <img class="ic-GooglePlay" alt="GooglePlay" src="./assets/img/svg/GooglePlay.svg"> </a>
+                    </div>
+                    <div class="footer-rows-social m"><a href="#" rel="nofollow" title="AppStore" target="_blank">
+                            <img class="ic-GooglePlay" alt="AppStore" src="./assets/img/svg/AppStore.svg"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var headerfix = document.getElementById("nav-fixed");
+        var header = document.getElementById("nav-header");
+        var headerMobi = document.getElementById("headerscroll2");
+        var headerMobilogo = document.getElementById("openPageslide2");
+        var headerMobilogo1 = document.getElementById("openPageslide");
+        var sticky = header.offsetTop;
+        var stickyfix = headerfix.offsetTop;
+        var prevScrollpos = window.pageYOffset;
+        var stickyMobi = headerMobi.offsetTop;
+        function myFunction() {
+            var currentScrollPos = window.pageYOffset;
+            if (window.pageYOffset > (sticky + stickyfix + 2)) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+            if (window.innerWidth > 1000) {
+                headerMobi.classList.remove("top_up");
+            } else {
+                headerMobi.classList.add("top_up");
+            }
+            if (currentScrollPos > stickyMobi) {
+                headerMobi.classList.add("hidden");
+                headerMobilogo1.classList.add('ic-none')
+            }
+
+            if (prevScrollpos > stickyMobi && prevScrollpos > currentScrollPos && currentScrollPos != 0) {
+                headerMobi.classList.remove("top_up");
+                headerMobi.classList.remove("hidden");
+                headerMobilogo.classList.remove("ic-none");
+                headerMobi.classList.add("top_down");
+            } else {
+                headerMobi.classList.add("top_up");
+                headerMobilogo.classList.add("ic-none");
+                headerMobi.classList.remove("top_down");
+                headerMobilogo1.classList.remove('ic-none')
+            }
+            prevScrollpos = currentScrollPos
+        }
+    </script>
+    <script>
+        //onclick
+        const setting = document.querySelector('.jsbtn-toggle1')
+        const showSetting = document.querySelector('.jscontent-drop')
+        const showdob = document.querySelector('.jsinput-dropdown')
+        const updateClose = document.querySelector('.jsupdate-date')
+        const selectClose = document.querySelector('.select-date')
+        const searchClose = document.querySelector('.jsbtn-search')
+        const searchhide = document.querySelector('.icon-mobi-right')
+        const logohide = document.querySelector('.logomobi')
+        const slidehide = document.querySelector('.openPageslide')
+        const jsdob = document.querySelector('.jsdob')
+        const arrowShow = document.querySelector('.form-search-top')
+        const arrowClose = document.querySelector('.close-search-top')
+        const menuMobi = document.querySelector('.jsopenPageslide')
+        const showmenuMobi = document.querySelector('.jsnavBox')
+        const hidemenuMobi = document.querySelector('.jsbtn-close-nav')
+        const animationMenuMobi = document.querySelector('.jsnavBox')
+        const fixMenuMobi = document.querySelector('.pagesBlock')
+        const headerMobi1 = document.getElementById("openPageslide2");
+        // const opentotxau = document.getElementById("xemngay-totxau");
+        // const opentotxau1 = document.getElementById("jsinput1");
+        // const opentotxau2 = document.getElementById("jsinput2");
+        const selectClosebody = document.querySelector('.jsselect-date')
+        const selectcaidat = document.querySelector('.jsselect-event')
+        const selectcaidatform2 = document.querySelector('.jsdayform2')
+        const seleformgr2 = document.querySelector('.jsform-group2')
+        const selectotxau = document.querySelectorAll('.jstotxau')
+        const seleccaidatngay = document.querySelectorAll('.jscaidat')
+        const seleccailabel = document.querySelectorAll('.jslabel')
+        const seleccailabelitem = document.querySelectorAll('.jsitem-sex')
+        const lichoiday1 = document.getElementById("lntholiday1");
+        const lichoiday0 = document.getElementById("lntholiday0");
+        const datime = document.getElementById("clock");
+        const selectnewpage = document.querySelector('.jsbtn-toggle2')
+        const selectnewpagetogo = document.querySelector('.jscontent-drop2')
+        const closemenulimobi = document.querySelectorAll('.jsnav_lick-mobi > li >a')
+        const closemenulimobiicon = document.querySelectorAll('.jsnav_lick-mobi > li >i')
+        const opendropsubmobi = document.querySelectorAll('.jsnav_lick-mobi > li >ul.dropNav_2sub')
+        for (let i = 0; i < closemenulimobi.length; i++) {
+            var items = closemenulimobi[i];
+            items.onclick = function () {
+                showmenuMobi.classList.remove('openMobi')
+                fixMenuMobi.classList.remove('fixdiv')
+            }
+        }
+        for (let i = 0; i < opendropsubmobi.length; i++) {
+            var items3 = opendropsubmobi[i];
+            items3.onclick = function () {
+                showmenuMobi.classList.remove('openMobi')
+                fixMenuMobi.classList.remove('fixdiv')
+            }
+        }
+        for (let i = 0; i < closemenulimobiicon.length; i++) {
+            var items2 = closemenulimobiicon[i];
+            items2.onclick = function () {
+                opendropsubmobi[i].classList.toggle('opendropNavmobi')
+            }
+        }
+        function openMenuMobi() {
+            showmenuMobi.classList.add('openMobi')
+            fixMenuMobi.classList.add('fixdiv')
+            animationMenuMobi.classList.remove('aminationclose')
+        }
+        function hideMenuMobi() {
+            setTimeout(() => {
+                showmenuMobi.classList.remove('openMobi')
+            }, 530)
+            fixMenuMobi.classList.remove('fixdiv')
+            animationMenuMobi.classList.add('aminationclose')
+        }
+        function openngaysinh() {
+            showdob.classList.add("open-ngaysinh");
+        }
+        function closengaysinh() {
+            showdob.classList.remove("open-ngaysinh");
+        }
+        function searchclose() {
+            searchhide.classList.add("closeSearch");
+            logohide.classList.add("closelogo");
+            slidehide.classList.add("closespan");
+            arrowShow.classList.add("show_block");
+        }
+        function openLogo() {
+            searchhide.classList.remove("closeSearch");
+            logohide.classList.remove("closelogo");
+            slidehide.classList.remove("closespan");
+            arrowShow.classList.remove("show_block");
+        }
+        function openShetting() {
+            showSetting.classList.add("open-content-drop");
+        }
+        function closeShetting() {
+            showSetting.classList.remove("open-content-drop");
+        }
+        function openttitucmobi() {
+            selectnewpagetogo.style.display = 'block';
+        }
+        function outsidetotxau(event) {
+            if (event.target != showSetting
+                && event.target.parentNode != showSetting
+                && event.target.parentNode != selectcaidat
+                && event.target.parentNode != showdob
+                && event.target.parentNode != seleccaidatngay[0]
+                && event.target.parentNode != seleccaidatngay[1]
+                && event.target.parentNode != seleccaidatngay[2]
+                && event.target.parentNode != selectcaidatform2
+                && event.target.parentNode != seleccailabel[0]
+                && event.target.parentNode != seleccailabel[1]
+                && event.target.parentNode != seleformgr2
+                && event.target.parentNode != seleccailabelitem[0]
+                && event.target.parentNode != seleccailabelitem[1]
+
+            ) {
+                showSetting.classList.remove("open-content-drop");
+            }
+            if (event.target != selectnewpagetogo && event.target.parentNode != selectnewpagetogo) {
+                selectnewpagetogo.style.display = 'none';
+            }
+
+        }
+
+        window.addEventListener('mouseup', outsidetotxau);
+        jsdob.addEventListener('click', openngaysinh)
+        setting.addEventListener('click', openShetting);
+        updateClose.addEventListener('click', closeShetting);
+        selectClose.addEventListener('click', closengaysinh);
+        searchClose.addEventListener('click', searchclose);
+        arrowClose.addEventListener('click', openLogo);
+        menuMobi.addEventListener('click', openMenuMobi);
+        headerMobi1.addEventListener('click', openMenuMobi);
+        hidemenuMobi.addEventListener('click', hideMenuMobi);
+        // opentotxau1.addEventListener('click', opentotxaubody);
+        // opentotxau2.addEventListener('click', opentotxaubody);
+        // selectClosebody.addEventListener('click', closetotxaubody);
+        fixMenuMobi.addEventListener('click', hideMenuMobi)
+        selectnewpage.addEventListener('click', openttitucmobi)
+
+            // showSetting.onclick = function () {
+            //     document.addEventListener('click', function (e) {
+            //         const hide = document.querySelector('.content-drop')
+            //         if (!hide.contains(e.target)) {
+            //             hide.style.display = "none";
+            //         }
+            //     })
+            // }
+    </script>
+</body>
+
+</html>

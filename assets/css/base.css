@@ -1,0 +1,157 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #323232;
+  --header-color: #dc1435;
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  color: #323232;
+  background: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid__full-width {
+  width: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-line3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.grid_colum {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid_colum_item {
+  display: flex;
+  width: 31.3%;
+  margin-right: 3%;
+  margin-bottom: 20px;
+}
+.grid_colum_item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.grid_colum_boxs {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.grid_images {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.grid_images img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.grid_boxs_content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.thumb-img {
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.thumb-full {
+  width: 100%;
+  float: left;
+  object-fit: fill;
+}
+.thumb200 {
+  width: 200px;
+  float: left;
+}
+.thumb120 {
+  width: 120px;
+  float: left;
+}
+.thumb100 {
+  width: 100px;
+  float: left;
+}
+.font14 {
+  font-size: 14px;
+}
+.thumb {
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.description {
+  display: grid;
+}
+.post-sapo {
+  font-size: 16px;
+}
+.thumb120 img {
+  height: 75px;
+}
+.h125 {
+  height: 125px;
+}
+.h125onlydesktop {
+  height: 125px;
+}
+.h200 {
+  height: 200px;
+}
+.h75 {
+  height: 75px;
+}
+.pd0 {
+  padding: 0;
+}
+.font15 {
+  font-size: 15px;
+}
+.border-bottom2 {
+  border-bottom: solid 1px #edd6d6 !important;
+}
+/* .col2.mg30 {
+  margin-bottom: 30px;
+} */
+
+.cat-box-title.mg20 {
+  margin-bottom: 20px;
+}
+.col2 {
+  float: left;
+  width: 48.5%;
+  margin-right: 3%;
+  position: relative;
+}
+.column3 {
+  float: left;
+  width: 31.3%;
+  margin-right: 3%;
+  position: relative;
+}
+.column3:nth-child(3n + 3) {
+  margin-right: 0;
+}
